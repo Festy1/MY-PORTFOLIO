@@ -1,0 +1,76 @@
+.logo {
+  height: 21px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4c59d1;
+  margin-right: auto;
+  margin-left: 24px;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  padding-right: 36px;
+}
+
+.headline {
+  padding: 114px 24px;
+  background-image: url(./images/background1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+}
+
+.name {
+  height: 150px;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.words {
+  height: 146px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.connect {
+  color: #4c59d1;
+  height: 24px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 19px;
+  padding: 0;
+}
