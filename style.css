@@ -1,9 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  scroll-behavior: smooth;
+}
+
 .logo {
   height: 21px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 22px;
   display: flex;
   align-items: center;
@@ -13,10 +23,18 @@
   margin-left: 24px;
 }
 
+.icon div {
+  border: 2px solid #4c59d1;
+  width: 22px;
+  margin: 3px;
+  border-radius: 15%;
+}
+
 .topnav {
   display: flex;
   align-items: center;
   padding-right: 36px;
+  height: 48px;
 }
 
 .headline {
@@ -33,40 +51,33 @@ ul {
 
 .name {
   height: 150px;
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   line-height: 52px;
   display: flex;
   align-items: center;
   color: #172b4d;
+  margin-bottom: 12px;
 }
 
 .words {
-  height: 146px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  margin-bottom: 12px;
 }
 
 .connect {
-  color: #4c59d1;
+  color: #7f8cff;
   height: 24px;
-  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 24px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  margin-bottom: 12px;
 }
 
 .social-media {
