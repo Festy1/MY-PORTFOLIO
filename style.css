@@ -243,7 +243,6 @@ ul {
   height: 24px;
   background: #ebebff;
   border-radius: 8px;
-  
 }
 
 .javascript {
@@ -278,9 +277,6 @@ button {
   border: 1px solid #6070ff;
   margin: 28px 0;
   background-color: #fff;
-
-
-  /* **** */
 }
 
 h3 {
@@ -315,7 +311,6 @@ h3 {
   border-top-right-radius: 60px;
   background: #fff;
 }
-
 
 .stacks {
   display: flex;
