@@ -17,14 +17,10 @@ body {
 }
 
 .main {
-  scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  overflow-x: hidden;
-  flex-wrap: wrap;
-  gap: 114px;
 }
 
 .logo {
@@ -279,6 +275,21 @@ button {
   background-color: #fff;
 }
 
+.btn:focus {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
+}
+
 h3 {
   width: 327px;
   height: 101px;
@@ -305,11 +316,9 @@ h3 {
 .myself {
   width: 100vw;
   padding: 114px 24px;
-  left: 375px;
-  top: 4769px;
-  margin-top: 114px;
   border-top-right-radius: 60px;
   background: #fff;
+  margin-top: 114px;
 }
 
 .stacks {
