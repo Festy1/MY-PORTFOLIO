@@ -390,10 +390,10 @@ ul h3 {
 }
 
 footer {
- background-image: url(./Images/conform.svg) ;
- background-repeat: no-repeat;
- background-position: right center;
- 
+ background-image: url(./Images/conform.svg), url('images/Contact-me.png') ;
+ background-repeat: no-repeat, no-repeat;
+ background-position: right top, left top;
+ padding: 24px;
 }
 
 .contact-me {
@@ -426,5 +426,10 @@ margin: 12px 24px 87px 24px;
 background: #FFFFFF;
 border: 1px solid #CFD8DC;
 border-radius: 8px;
-margin: 0px 24px 20px 24px;
+padding: 15px 38px 15px 16px;
+width: 100%;
+}
+
+#E-mail {
+ margin-top: 16px;
 }
