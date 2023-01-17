@@ -388,3 +388,43 @@ ul h3 {
   line-height: 24px;
   color: #000;
 }
+
+footer {
+ background-image: url(./Images/conform.svg) ;
+ background-repeat: no-repeat;
+ background-position: right center;
+ 
+}
+
+.contact-me {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+justify-content: center;
+margin-top: 103px;
+}
+
+.form-msg {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+color: #EBEBFF;
+justify-content: center;
+margin: 12px 24px 87px 24px;
+}
+
+#name {
+background: #FFFFFF;
+border: 1px solid #CFD8DC;
+border-radius: 8px;
+margin: 0px 24px 20px 24px;
+}
