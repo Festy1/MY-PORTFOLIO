@@ -393,89 +393,84 @@ ul h3 {
 }
 
 .footer {
- background-image: url(./Images/conform.svg), url('images/Contact-me.png') ;
- background-repeat: no-repeat, no-repeat;
- background-position: right top, left top;
- padding: 24px;
- display: flex;
- flex-direction: column;
- 
+  background-image: url(./Images/conform.svg), url('images/Contact-me.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left top;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-me {
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-display: flex;
-text-align: center;
-color: #FFFFFF;
-justify-content: center;
-margin-top: 55px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+  margin-top: 55px;
 }
 
 .form-msg {
-font-family: 'Poppins', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-color: #EBEBFF;
-justify-content: center;
-margin: 12px 24px 0px 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  justify-content: center;
+  margin: 12px 24px 0 24px;
 }
 
 .form-name {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
   width: 100%;
   margin-bottom: 16px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 15px;
-display: flex;
-align-items: center;
-color: #172B4D;
-margin-top: 38px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+  margin-top: 38px;
 }
 
 .form-email {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   padding: 15px 38px 15px 16px;
   width: 100%;
   margin-bottom: 16px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 15px;
-display: flex;
-align-items: center;
-color: #172B4D;
-
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
 }
 
 .textarea {
-  background: #FFFFFF;
-  border: 1px solid #CFD8DC;
+  background: #fff;
+  border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 100%;
   padding: 15px 38px 15px 16px;
   resize: none;
-  font-family: 'Poppins';
-font-style: normal;
-font-size: 15px;
-line-height: 24px;
-color: #B3BAC5;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
 }
-
-
-
