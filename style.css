@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 375px;
   overflow-x: hidden;
   flex-wrap: wrap;
   background-color: #e5e5e5;
@@ -271,21 +271,24 @@ button {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  margin: 28px 0;
+  margin: 16px 0;
   background-color: #fff;
 }
 
-.btn:focus {
+.btn:focus,
+.form-button:focus {
   background-color: #2230d2;
   color: #fff;
 }
 
-.btn:hover {
+.btn:hover,
+.form-button:hover {
   background-color: #6070ff;
   color: #fff;
 }
 
-.btn:disabled {
+.btn:disabled,
+.form-button:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
 }
@@ -389,11 +392,14 @@ ul h3 {
   color: #000;
 }
 
-footer {
+.footer {
  background-image: url(./Images/conform.svg), url('images/Contact-me.png') ;
  background-repeat: no-repeat, no-repeat;
  background-position: right top, left top;
  padding: 24px;
+ display: flex;
+ flex-direction: column;
+ 
 }
 
 .contact-me {
@@ -406,7 +412,7 @@ display: flex;
 text-align: center;
 color: #FFFFFF;
 justify-content: center;
-margin-top: 103px;
+margin-top: 55px;
 }
 
 .form-msg {
@@ -418,7 +424,7 @@ line-height: 28px;
 text-align: center;
 color: #EBEBFF;
 justify-content: center;
-margin: 12px 24px 87px 24px;
+margin: 12px 24px 0px 24px;
 }
 
 .form-name {
@@ -428,4 +434,48 @@ margin: 12px 24px 87px 24px;
   padding: 15px 38px 15px 16px;
   width: 100%;
   margin-bottom: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #172B4D;
+margin-top: 38px;
 }
+
+.form-email {
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+  width: 100%;
+  margin-bottom: 16px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #172B4D;
+
+}
+
+.textarea {
+  background: #FFFFFF;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 38px 15px 16px;
+  resize: none;
+  font-family: 'Poppins';
+font-style: normal;
+font-size: 15px;
+line-height: 24px;
+color: #B3BAC5;
+}
+
+
+
