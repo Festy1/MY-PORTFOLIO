@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100vw;
+  width: 375px;
   overflow-x: hidden;
   flex-wrap: wrap;
   background-color: #e5e5e5;
@@ -271,21 +271,24 @@ button {
   padding: 12px;
   border-radius: 8px;
   border: 1px solid #6070ff;
-  margin: 28px 0;
+  margin: 16px 0;
   background-color: #fff;
 }
 
-.btn:focus {
+.btn:focus,
+.form-button:focus {
   background-color: #2230d2;
   color: #fff;
 }
 
-.btn:hover {
+.btn:hover,
+.form-button:hover {
   background-color: #6070ff;
   color: #fff;
 }
 
-.btn:disabled {
+.btn:disabled,
+.form-button:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
 }
@@ -387,4 +390,95 @@ ul h3 {
   font-size: 20px;
   line-height: 24px;
   color: #000;
+}
+
+footer {
+  background-color: #fff;
+}
+
+.footer {
+  background-image: url(./Images/option.svg);
+  background-color: #6070ff;
+  background-repeat: no-repeat;
+  background-size: 60% 92%;
+  padding: 103px 24px;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  background-position: right 20%;
+  padding-bottom: 29px;
+  border-top-left-radius: 60px;
+}
+
+.contact-me {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  justify-content: center;
+}
+
+.form-msg {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.form-name {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.form-email {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  color: #172b4d;
+}
+
+.textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+  padding: 15px 38px 15px 16px;
+  resize: none;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  margin-bottom: 6px;
 }
