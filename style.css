@@ -393,12 +393,12 @@ ul h3 {
 }
 
 footer {
-background-color: #fff;
+  background-color: #fff;
 }
 
 .footer {
   background-image: url(./Images/option.svg);
-  background-color: #6070FF;
+  background-color: #6070ff;
   background-repeat: no-repeat;
   background-size: 60% 92%;
   padding: 103px 24px;
@@ -420,7 +420,6 @@ background-color: #fff;
   text-align: center;
   color: #fff;
   justify-content: center;
- 
 }
 
 .form-msg {
@@ -483,6 +482,3 @@ background-color: #fff;
   color: #b3bac5;
   margin-bottom: 6px;
 }
-
-
-
