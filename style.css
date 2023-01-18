@@ -393,7 +393,7 @@ ul h3 {
 }
 
 .footer {
-  background-image: url(./Images/conform.svg), url('images/Contact-me.png');
+  background-image: url('./Images/conform.svg'), url('./Images/Contact-me.png');
   background-repeat: no-repeat, no-repeat;
   background-position: right top, left top;
   padding: 24px;
