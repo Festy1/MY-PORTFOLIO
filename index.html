@@ -16,52 +16,75 @@
 
     <header class="topnav">
         <a class="logo">My Logo</a>
-        <nav>
+        <nav class="nav-bar">
             <div class="icon">
                 <div></div>
                 <div></div>
                 <div></div>
             </div>
+            <div class="menu">
+                <div>Portfolio</div>
+                <div>About</div>
+                <div>Contact</div>
+            </div>
         </nav>
     </header>
     <section class="main">
-        <section class="headline">
-            <h1 class="name">
-                I'm Festy<br />
-                Glad to meet you!<br />
-            </h1>
-            <p class="words">
-                I'm a software developer! I can help you build a product,
-                feature or website. Look through some of my work and experience!
-                If you like what you see and have a project need coded, dont hesitate
-                to contact me.
-            </p>
-            <h4 class="connect">LET'S CONNECT!</h4>
-            <ul class="social-media">
-                <li><a href="#"><img src="./Images/twitter.svg" alt="twitter icon"></a></li>
-                <li><a href="#"><img src="./Images/Linkedin.svg" alt="Linkedin icon"></a></li>
-                <li><a href="#"><img src="./Images/Mirror.svg" alt="Mirror icon"></a></li>
-                <li><a href="#"><img src="./Images/Github.svg" alt=""></a></li>
-                <li><a href="#"><img src="./Images/peace.svg" alt="peace icon"></a></li>
-            </ul>
-        </section>
+        <div class="headline-background">
+            <section class="headline">
+                <h1 class="name">
+                    I'm Festy<br />
+                    Glad to meet you!<br />
+                </h1>
+                <p class="words">
+                    I'm a software developer! I can help you build a product,
+                    feature or website. Look through some of my work and experience!
+                    If you like what you see and have a project need coded, dont hesitate
+                    to contact me.
+                </p>
+                <h4 class="connect">LET'S CONNECT!</h4>
+                <ul class="social-media">
+                    <li><a href="#"><img src="./Images/twitter.svg" alt="twitter icon"></a></li>
+                    <li><a href="#"><img src="./Images/Linkedin.svg" alt="Linkedin icon"></a></li>
+                    <li><a href="#"><img src="./Images/Mirror.svg" alt="Mirror icon"></a></li>
+                    <li><a href="#"><img src="./Images/Github.svg" alt=""></a></li>
+                    <li><a href="#"><img src="./Images/peace.svg" alt="peace icon"></a></li>
+                </ul>
+            </section>
+        </div>
 
         <!-- /*Work ----------------------------section*/ -->
         <section class="work">
             <div class="Project">
                 <img class="pic1" src="./Images/snap1.svg" alt="First-Project">
+                <img class="pic-desktop1" src="./Images/desktop1.png" alt="Project-1">
                 <div class="body">
                     <h2 class="title">Tonic</h2>
+                    <h2 class="title-desktop">Tonic</h2>
                     <ul class="Can-2015">
                         <li class="canopy">
                             <h4>CANOPY</h4>
                         </li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="back">Back End Dev</li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="year">2015</li>
                     </ul>
+                    <div class="testt">
+                        <h5 class="uber">CANOPY</h5>
+                        <ul class="Can-2">
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="full-stack">Back End Dev</li>
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="year">2015</li>
+                        </ul>
+                    </div>
                     <p class="info">
+                        A daily selection of privately
+                        personalized reads; no accounts or
+                        sign-ups required.
+                    </p>
+                    <p class="info-desktop">
                         A daily selection of privately
                         personalized reads; no accounts or
                         sign-ups required.
@@ -77,26 +100,43 @@
 
 
             <!-- ******Project 2****** -->
-            <div class="Project">
+            <div class="Project reverse">
                 <img class="pic1" src="./Images/snap2.svg" alt="Second-Project">
+                <img class="pic-desktop2" src="./Images/desktop2.png" alt="Project-2">
                 <div class="body">
                     <h2 class="title">Multi-Post Stories</h2>
+                    <h2 class="title-desktop">Multi-Post Stories</h2>
                     <ul class="Can-2015">
                         <li class="canopy">
                             <h4>CANOPY</h4>
                         </li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="back">Back End Dev</li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="year">2015</li>
                     </ul>
+                    <div class="testt">
+                        <h4 class="canopy1">FACEBOOK</h4>
+                        <ul class="Can-2">
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="full-stack">Full Stack Dev</li>
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="year">2015</li>
+                        </ul>
+                    </div>
                     <p class="info">
                         A daily selection of privately
                         personalized reads; no accounts or
                         sign-ups required.
                     </p>
+                    <p class="info-desktop">
+                        Experimental content creation feature that allows users to
+                        add to an existing story over the course of a day without
+                        spamming their friends.
+                    </p>
                     <ul class="lang">
                         <li class="html">html</li>
+                        <li class="Ruby">Ruby on rails</li>
                         <li class="css">css</li>
                         <li class="javascript">javaScript</li>
                     </ul>
@@ -107,24 +147,42 @@
             <!-- ******Project 3****** -->
             <div class="Project">
                 <img class="pic1" src="./Images/snap3.svg" alt="Second-Project">
+                <img class="pic-desktop3" src="./Images/desktop3.png" alt="Project-3">
                 <div class="body">
                     <h2 class="title">Tonic</h2>
+                    <h2 class="title-desktop">Facebook 360</h2>
                     <ul class="Can-2015">
                         <li class="canopy">
                             <h4>CANOPY</h4>
                         </li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="back">Back End Dev</li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="year">2015</li>
                     </ul>
+                    <div class="testt">
+                        <h4 class="canopy1">FACEBOOK</h4>
+                        <ul class="Can-2">
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="full-stack">Full Stack Dev</li>
+                            <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                            <li class="year">2015</li>
+                        </ul>
+                    </div>
                     <p class="info">
                         A daily selection of privately
                         personalized reads; no accounts or
                         sign-ups required.
                     </p>
+                    <p class="info-desktop">
+                        Exploring the future of media in Facebook's first Virtual Reality
+                        app: a place to discover and enjoy 360 photos and videos on
+                        Gear VR.
+                    </p>
+
                     <ul class="lang">
                         <li class="html">html</li>
+                        <li class="Ruby">Ruby on rails</li>
                         <li class="css">css</li>
                         <li class="javascript">javaScript</li>
                     </ul>
@@ -134,26 +192,42 @@
 
 
             <!-- ******Project 4******  -->
-            <div class="Project">
+            <div class="Project reverse">
                 <img class="pic1" src="./Images/snap4.svg" alt="First-Project">
+                <img class="pic-desktop4" src="./Images/desktop4.png" alt="Project-4">
                 <div class="body">
                     <h2 class="title">Multi-Post Stories</h2>
+                    <h2 class="title-desktop">Uber Navigation</h2>
                     <ul class="Can-2015">
                         <li class="canopy">
                             <h4>CANOPY</h4>
                         </li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="back">Back End Dev</li>
-                        <li><img class=counter src="./Images/Counter.png" alt="counter"></li>
+                        <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
                         <li class="year">2015</li>
                     </ul>
+                    <div class="testt">
+                        <h5 class="uber">Uber</h5>
+                        <ul class="Can-2">
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="full-stack">Lead Developer</li>
+                            <li><img class="counter" src="./Images/Counter.png" alt="counter"></li>
+                            <li class="year">2018</li>
+                        </ul>
+                    </div>
                     <p class="info">
                         A daily selection of privately
                         personalized reads; no accounts or
                         sign-ups required.
                     </p>
+                    <p class="info-desktop">
+                        A smart assistant to make driving more safe, efficient, and fun
+                        by unlocking your most expensive computer: your car.
+                    </p>
                     <ul class="lang">
                         <li class="html">html</li>
+                        <li class="Ruby">Ruby on rails</li>
                         <li class="css">css</li>
                         <li class="javascript">javaScript</li>
                     </ul>
@@ -166,7 +240,7 @@
         <!-- /*About myself ----------------------------section*/ -->
         <section class="myself">
             <div class="Top-part">
-                <h3>About Myself</h3>
+                <h3>About <br> Myself</h3>
                 <p class="self">
                     Hello I'm a software developer! I can help
                     you build a product, feature or website.
@@ -225,8 +299,7 @@
         <section class="footer">
             <h6 class="contact-me">Contact me</h6>
             <p class="form-msg">If you have an application you are interested in developing, a feature that you need
-                built
-                or a project that needs coding. I’d love to help with it.
+                built or a project that needs coding. I’d love to help with it.
             </p>
             <form class="form" action="https://formspree.io/f/moqzvleb" method="post">
                 <ul>
@@ -242,7 +315,7 @@
                         <textarea name="user-message" class="textarea" id="msg" cols="30" rows="6" type="text"
                             placeholder="Write your message" minlength="1" maxlength="500" required></textarea>
                     </li>
-                    <li>
+                    <li class="bttn">
                         <button class="form-button" type="submit">Get In Touch</button>
                     </li>
                 </ul>
