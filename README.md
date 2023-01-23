@@ -170,16 +170,10 @@ sh
 
 
 ### Deployment <a name="triangular_flag_on_post-deployment"></a>
+You can access this project with hte link below:
 
-You can deploy this project using: github pages or any host of your choice
+https://festy1.github.io/MY-PORTFOLIO/
 
-<!--
-Example:
-
-sh
-
-
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -220,7 +214,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+
 
 If you like this project please give it a ⭐️.
 
